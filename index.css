@@ -1,11 +1,3 @@
-@font-face {
-    font-family: "Questrial";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Questrial"), local("Questrial-Regular"), url("http://fonts.gstatic.com/s/questrial/v5/MYWJ4lYm5dbZ1UBuYox79D8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
-}
-
-
 body {
     margin: 0px;
     padding: 0px;
@@ -82,8 +74,6 @@ body {
 /*fonts*/ 
 body, nav, h1, #navi_bar, .resume_header {
     font-family: Helvetica, Arial, sans-serif;
-
-
 }
 
 
@@ -120,4 +110,10 @@ a:active {
 ul{
     margin: 0.25em;
     padding: 0.25em;
+}
+
+
+.content{
+    padding-left:2em;
+    text-align: left;
 }
