@@ -11,11 +11,37 @@ body {
     padding: 0px;
 }
 
-h1{
+#top_bar h1, #top_bar p{
     text-align:center;
     color: #bfbfbf;
 }
 
+#resume_container{
+    /*margin: 2.5em;*/
+    padding:2.5em;
+    /*text-align:center;*/
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.resume_header{
+    padding-top: 1em;
+    /*color:lightblue;*/
+    color:lightskyblue;
+    /*color: #8fc1c1;*/
+
+}
+
+.resume_sub_header{
+    /*text-align:left;*/
+    font-weight: bold;
+}
+
+
+#edu_list .resume_contents{
+    margin-left: 1em;
+}
 
 
 /*top and bottom bars*/
@@ -32,6 +58,8 @@ h1{
     /*border-top: 1px solid #d8d8d8;*/
 
     border-top: 2px solid #8fc1c1;
+    /*border-top: 2px solid lightskyblue;*/
+
     padding: 30px 0;
 }
 
@@ -39,6 +67,9 @@ h1{
     /*    background-color: #bfbfbf;*/
     background-color: #eee;
     border-bottom: 2px solid #8fc1c1;
+
+    /*border-bottom: 2px solid lightskyblue;*/
+
 }
 
 .navi_button{
@@ -49,7 +80,7 @@ h1{
 }
 
 /*fonts*/ 
-body, nav, h1, #navi_bar {
+body, nav, h1, #navi_bar, .resume_header {
     font-family: Helvetica, Arial, sans-serif;
 
 
@@ -62,4 +93,31 @@ a:hover {
 
 a:active {
     color: #f99600;
+}
+
+
+
+.separator {
+    border-top: 2px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+
+#resume_top h2, p {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+
+#top_bar h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin: 0.25em;
+    padding: 0.25em;
 }
