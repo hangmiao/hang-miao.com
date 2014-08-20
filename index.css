@@ -117,3 +117,20 @@ ul{
     padding-left:2em;
     text-align: left;
 }
+
+
+#footer_logo a{
+    /*overflow: hidden;*/
+    text-decoration: none;
+}
+
+#footer_logo img{
+    background: no-repeat;
+    /*background-size: 48px 48px;*/
+}
+
+#footer_linkedIn img{
+    width: 46px;
+    height: 46px;
+}
+
