@@ -4,7 +4,10 @@
         <title>Hang's website</title>
         <meta charset="UTF-8">
         <link href="index.css" type="text/css" rel="stylesheet" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
         <script src="resume.js" type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script>
     </head>
 
     <div id="top_bar"> 
@@ -13,9 +16,20 @@
     </div>
 
     <div id="navi_bar">
-        <nav>
-            <a class="navi_button" href="index.php">Resume</a>
-            <a class="navi_button" href="videos.php">Web Projects</a>
-            <a  class="navi_button" href="videos.php">Videos</a>
-        </nav> 
+        <ul>
+            <li><a class="navi_button" href="index.php">Resume</a></li> 
+            <li><a class="navi_button" id="toggle_nav_btn" href="index.php">Web Projects</a>
+                <div id="ar" ></div>
+                <div id="submenu_web_pro">
+                    <ul>
+                        <!--<li><a href="web_projects/3/movie.php">movie reviews (PHP)</a></li>-->
+                        <li><a href="web_projects/4/index.php">Six Degrees of Kevin Bacon (PHP, SQL)</a></li>
+                        <li><a href="web_projects/5/ascii.html">ASCIImation Viewer (JavaScript)</a></li>
+                        <li><a href="web_projects/6/fifteen.html">Fifteen Puzzle Game (JavaScript)</a></li>
+                        <li><a href="web_projects/7/cow.html">Task Management (Prototype.js, Scriptaculous.js, AJAX, PHP)</a></li>
+                    </ul>
+                </div>
+            </li> 
+            <li><a  class="navi_button" href="videos.php">Videos</a></li> 
+        </ul>
     </div>

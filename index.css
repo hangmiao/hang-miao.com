@@ -8,6 +8,72 @@ body {
     color: #bfbfbf;
 }
 
+#navi_bar>ul{
+    margin-top: 0px;        /*space bar*/
+    padding: 20px;
+    background-color: #eee;
+}
+
+/*submenu left vertical space */
+#navi_bar ul li ul{
+    padding-left: 0px;
+}   
+
+
+/*top buttons*/
+#navi_bar>ul>li {
+    float:left;
+    list-style: none;
+}
+
+/*links in the navigation bar*/
+#navi_bar ul li li a{
+    color: white;
+    text-decoration: none;
+    display: block; /*make the link occupy the li tag for easier click*/
+}
+
+/*submenu panel*/
+#submenu_web_pro{
+    position:absolute; 
+    background-color: #bfbfbf;
+    border-radius:8px 8px 8px 8px;
+    overflow:hidden;
+}
+
+/*submenu*/
+ul li li { 
+    float: none;
+    list-style: none;
+    display: none;     /* hide first*/
+    z-index: 10000;
+    padding: 0.8em;
+    border-bottom: 0.6px solid #bfbfbf;
+}
+
+
+
+#navi_bar ul li li:hover{
+    background-color: #8fc1c1;
+}
+
+
+#navi_bar{
+    /*    background-color: #bfbfbf;*/
+    background-color: #eee;
+    border-bottom: 2px solid #8fc1c1;
+    /*border-bottom: 2px solid lightskyblue;*/
+
+}
+
+.navi_button{
+    color: #818181;
+    text-decoration: none;
+    padding-left:3em;
+    font-size: 1.2em;
+}
+
+
 #resume_container{
     /*margin: 2.5em;*/
     padding:2.5em;
@@ -16,20 +82,17 @@ body {
     margin-right: 15%;
 }
 
-
 .resume_header{
     padding-top: 1em;
     /*color:lightblue;*/
     color:lightskyblue;
     /*color: #8fc1c1;*/
-
 }
 
 .resume_sub_header{
     /*text-align:left;*/
     font-weight: bold;
 }
-
 
 #edu_list .resume_contents{
     margin-left: 1em;
@@ -41,7 +104,7 @@ body {
     color: white;
     /*    background-color: #f2f2f2;*/
     background-color: #eee;
-    padding:0.5em;
+    /*padding:0.5em;*/
 }
 
 
@@ -55,34 +118,23 @@ body {
     padding: 30px 0;
 }
 
-#navi_bar{
-    /*    background-color: #bfbfbf;*/
-    background-color: #eee;
-    border-bottom: 2px solid #8fc1c1;
-
-    /*border-bottom: 2px solid lightskyblue;*/
-
-}
-
-.navi_button{
-    color: #818181;
-    text-decoration: none;
-    padding:2em;
-    font-size: 1.2em;
-}
 
 /*fonts*/ 
-body, nav, h1, #navi_bar, .resume_header {
+body, h1, #navi_bar, .resume_header {
     font-family: Helvetica, Arial, sans-serif;
 }
 
 
-a:hover {
+/*a:hover {
+    color: #8fc1c1;
+}*/
+
+li:hover a {
     color: #8fc1c1;
 }
 
 a:active {
-    color: #f99600;
+    color: #8fc1c1;
 }
 
 
@@ -107,7 +159,7 @@ a:active {
     padding: 0px;
 }
 
-ul{
+#resume_container ul{
     margin: 0.25em;
     padding: 0.25em;
 }
@@ -134,3 +186,19 @@ ul{
     height: 46px;
 }
 
+/*the arrow*/
+.intro {
+    /*position:absolute;*/ 
+    padding-left: 2em;
+    padding-top: 0.1em;
+    background-color:transparent;
+    color: #8fc1c1;
+    font-size: 300%;
+    z-index: 11111;
+    line-height: 0.2em;
+}
+
+#ar{
+    display: none;     /* hide first*/
+    float: none;
+}
