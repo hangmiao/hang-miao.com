@@ -8,6 +8,7 @@ $(document).ready(function() {
 //  dropdown menu animation
     $("li").hover(function() {
         // $(this).find("ul>li").stop().slideToggle(300);
-        $(this).find("ul>li, #ar").stop().fadeToggle(200);
+        $(this).find("#submenu_web_pro>ul>li, #ar").stop().fadeToggle(200);
+//        $(this).find("#ar").stop().fadeToggle(200);
     });
 });
