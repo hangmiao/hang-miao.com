@@ -42,7 +42,7 @@ body {
 }
 
 /*submenu*/
-ul li li { 
+#navi_bar ul li li { 
     float: none;
     list-style: none;
     display: none;     /* hide first*/
