@@ -1,0 +1,62 @@
+/*7
+Hang Miao
+
+
+Assignment Description: A task management web application using PHP, Ajax, and Scriptaculous library.
+This is the style sheet describing the appearance of all of the web pages.*/
+
+
+/*no vertical margin*/
+h1 {
+    margin-bottom: 0pt;
+    margin-top: 0pt;
+}
+
+/*clear for displaying error msg*/
+p{
+    clear: both;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    color: #005AB4;
+    background-color: white;
+    padding:1em;
+}
+
+.todoList {
+    padding:1em;
+}
+
+/*fonts*/ 
+body, #main {
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*top and bottom bars*/
+.bar {
+    color: white;
+    background-color: #005AB4;
+    padding:0.5em;
+}
+
+/*set the logo.gif in top bar*/
+.bar > img {
+    /*set logo.gif in same line of h1*/
+    float: left; 
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+/*error message*/
+.errorMsg {
+    float: left; 
+    margin-left: 1em;
+    padding: 5px;
+    border: 3px dashed red;
+}

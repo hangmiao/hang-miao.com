@@ -1,0 +1,70 @@
+/*5 ASCIImation
+Hang Miao
+
+
+Assignment Description: 
+
+This is the style sheet for the HTML5 home page.
+*/
+
+h1 {
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0pt;
+}
+
+body {
+    background-color: #CCCCFF;
+    text-align: center;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+textarea{
+    width: 90%;
+    height: 400px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+fieldset{
+    border: 5px solid;
+    display: inline;
+    vertical-align: top;
+}
+
+div#controls {
+    text-align: center;
+}
+
+div#w3c{
+    text-align: right;
+}
+
+.Tiny {
+    font-size: 7pt;
+}
+
+.Small{
+    font-size:10pt;
+}
+
+.Medium{
+    font-size: 12pt;
+}
+
+.Large{
+    font-size: 16pt;
+}
+
+.ExtraLarge{
+    font-size: 24pt;
+}
+
+.XXL{
+    font-size: 32pt;
+}

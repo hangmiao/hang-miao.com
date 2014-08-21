@@ -1,0 +1,94 @@
+/*/*4 - Kevin Bacon
+Hang Miao
+
+Assignment Description: Accessing a database through PHP and manipulating database data using an HTML form
+*/
+
+
+
+#banner, #w3c{
+    text-align: left;
+    margin: 0px;
+    padding: 8px;
+    background-image: url("./images/banner-background.png");
+    color: white;
+    vertical-align: text-top;
+    font-size: 14pt;
+}
+
+
+#main{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin: 0px;
+    alignment-adjust: central;
+    background-color: white;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    background-color: #dad9d4;
+
+}
+
+h1{
+    margin: 0px;
+    padding: 25px;
+}
+
+.tables {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid lightslategray;
+    width: 70%;
+}
+
+
+/*print the zebra stripe*/
+tr:nth-child(2n) {
+    background-color: gainsboro;
+    border: 1px solid gray;
+    text-align: center;
+    alignment-adjust: central;
+    width: 600px;
+}
+
+caption{
+    text-align: center;
+    /*space between caption and table*/
+    margin-bottom: 18px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#frame{
+    alignment-adjust: central;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+
+}
+
+th{
+    font-weight: bold;    
+}
+
+fieldset{
+    font-size: 12pt;
+}
+

@@ -1,0 +1,72 @@
+<!--5 ASCIImation
+Hang Miao
+
+
+Assignment Description: 
+
+This is the HTML5 file for creating/viewing ASCIImations.
+-->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="ascii.css" type="text/css" rel="stylesheet" />
+    <script src= "ascii.js"></script>
+    <script src= "animations.js"></script>
+    <script src= "myanimation.js"></script>
+    <title>ASCIImation</title>
+</head>
+<body>
+    <h1>ASCII Animation Viewer</h1>
+    <textarea rows="20" cols="80" id="textArea">
+    </textarea>
+    
+    <div id="controls">
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <button id="start">Start</button>
+            <button id="stop" onclick="buttonClicked();">Stop</button>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Animation:</legend>
+            <select id="animationChoice"> 
+                <option value="Blank" selected="selected">Blank</option>
+                <option value="Exercise">Exercise</option>
+                <option value="Juggler">Juggler</option>
+                <option value="Bike">Bike</option>
+                <option value="Dive">Dive</option>
+                <option value="Custom">Custom</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Size:</legend>
+            <select id="fontChoice"> 
+                <option value="Tiny">Tiny</option>
+                <option value="Small">Small</option>
+                <option value="Medium" selected="selected">Medium</option>
+                <option value="Large">Large</option>
+                <option value="ExtraLarge">Extra Large</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Speed:</legend>
+            <!--wrap the check box with label tag to make it clickable-->
+            <label>
+            <input type="checkbox" id="turbo" />Turbo
+            </label>
+        </fieldset>
+    </div>
+
+    <div id="w3c">
+        <a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/w3c-html.png" alt="Valid HTML5" /></a><br>
+        <a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/w3c-css.png" alt="Valid CSS" /></a><br>
+        <a href="http://webster.cs.washington.edu/jslint?referer"><img src="https://webster.cs.washington.edu/w3c-js.png" alt="Jslint" /></a>
+    </div>
+
+</body>
+</html>
+
