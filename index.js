@@ -9,6 +9,5 @@ $(document).ready(function() {
     $("li").hover(function() {
         // $(this).find("ul>li").stop().slideToggle(300);
         $(this).find("#submenu_web_pro>ul>li, #ar").stop().fadeToggle(200);
-//        $(this).find("#ar").stop().fadeToggle(200);
     });
 });
