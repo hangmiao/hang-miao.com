@@ -3,6 +3,38 @@ body {
     padding: 0px;
 }
 
+
+/*background color when selecting the text */
+ /*** Common browsers ***/
+  ::selection {
+      background-color: lightskyblue;
+      color: #fff;
+  }
+   
+  /*** Mozilla based browsers ***/
+  ::-moz-selection {
+      background-color: lightskyblue;
+     color: #fff;
+ }
+  
+ /***For Other Browsers ***/
+ ::-o-selection {
+     background-color: lightskyblue;
+     color: #fff;
+ }
+  
+ ::-ms-selection {
+     background-color: lightskyblue;
+     color: #fff;
+ }
+  
+ /*** For Webkit ***/
+ ::-webkit-selection {
+     background-color: lightskyblue;
+     color: #fff;
+ }
+ 
+ 
 #top_bar h1, #top_bar p{
     text-align:center;
     color: #bfbfbf;
