@@ -16,6 +16,8 @@
 document.observe("dom:loaded", function() {
     $("logInButton").observe("click", logInSubmit);
     getSessionStatus();
+    
+    alert("Bug fixed! \nIt was the php session path. Now it's working!\n \nuserName: testuser\npsw:testpsw\n\n\And I'll change this to an animation soon.\nCheers!");
 });
 
 // check if user is logged in
